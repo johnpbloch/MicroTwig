@@ -53,9 +53,7 @@ class View extends \Micro\View
 		{
 			self::$_loader = new \Twig_Loader_Filesystem(static::$directory);
 		}
-		$defaults = array(
-			'autoescape' => false
-		);
+		$defaults = array();
 		if(!self::$_twig)
 		{
 			self::$_twig = new \Twig_Environment(self::$_loader, $defaults);
