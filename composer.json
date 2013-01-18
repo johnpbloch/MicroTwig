@@ -1,0 +1,31 @@
+{
+    "name": "johnpbloch/micro-twig",
+	"type": "library",
+    "description": "Twig templates for MicroMVC Library's Views",
+	"keywords": ["micro", "template"],
+	"homepage": "https://github.com/johnpbloch/microtwig",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "John P. Bloch",
+            "email": "me@johnpbloch.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.3.0",
+		"micro/micro": "dev-master",
+		"twig/twig": "1.12.*"
+    },
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Xeoncross/Micro.git"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"MicroTwig": "MicroTwig"
+		}
+	}
+}
